@@ -1,0 +1,54 @@
+/* Používáme intuitivní výpočet rozměrů prvků. */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 16px;
+}
+
+body {
+  /* Center the form on the page */
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+#inputValue{
+
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+
+}
+
+#greenChar  {
+
+  background-color: greenyellow;
+  width: fit-content;
+  padding: 8px;
+  border-radius: 8px;
+  color: #383838;
+  font-size: 20px;
+}
+
+#redChar  {
+  background-color: lightcoral;
+  width: fit-content;
+  padding: 8px;
+  border-radius: 8px;
+  color: #383838;
+  font-size: 20px;
+}

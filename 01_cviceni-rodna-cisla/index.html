@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js"></script>
+    <title>Platnost rodného čísla</title>
+  </head>
+<body>
+  <div class="container">
+    <h1>Zkontrolujte si platnost rodného čísla</h1>
+    <form action="/script.js"> 
+      <p>
+        <label for="name">Rodné číslo:</label>
+        <input type="text" id="rc" name="rc" placeholder="Zadejte rodné číslo" required />
+      </p>
+        <button type="submit">Odeslat</button>
+    </form>
+    <p>
+      <div id="errorMessage"></div>
+      <br>
+      <div id ="inputValue"></div>
+    </p>
+  </div>
+</body>
+</html>
+
