@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  color: #444;
+}
+
+body {
+  margin: 0;
+
+  background-color: lightblue;
+}
+
+.container {
+  max-width: 35rem;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.flight {
+  display: flex;
+  
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #bbb;
+}
+
+.flight__icon {
+  width: 4rem;
+  height: 4rem;
+  background-image: url(img/ariplane.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.flight__info {
+  display: flex;
+}
+
+.flight__stop {
+  margin: 0 1rem;
+}
+
+.flight__stop-type {
+  font-weight: bold;
+  color: skyblue;
+}
+
+.flight__stop-city {
+  font-weight: bold;
+}
