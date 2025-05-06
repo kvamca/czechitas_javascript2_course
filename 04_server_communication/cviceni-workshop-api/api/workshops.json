@@ -1,0 +1,35 @@
+[
+  {
+    "id": 0,
+    "title": "Úvod do komponentového myšlení",
+    "description": "Jak při vývoji software využívat komponenty pro zpřehlednění kódu a snadnější znovupoužitelnost.",
+    "intro": "Kurz 'Úvod do komponentového myšlení' je vaším průvodcem do světa moderního softwarového inženýrství. Tento kurz se zaměřuje na klíčový koncept komponentového myšlení, který je nezbytný pro vytváření škálovatelných a znovupoužitelných softwarových aplikací. Během kurzu se naučíte, jak rozkládat složité problémy na menší, snadno spravovatelné komponenty a jak je znovu využívat ve vašem vývoji. Připojte se k nám a získejte základy, které vám umožní efektivněji a úspěšněji pracovat na vašich projektech.",
+    "level": "středně pokročilý",
+    "priorExperience": "Tento kurz je vhodný pro všechny, kteří již mají zkušenosti s vývojem webových aplikací v Reactu a Node.js.",
+    "preparation": "Na kurz si připravte vlastní počítač s nainstalovaným Node.js a editor VS Code. Všechny potřebné dodatečné informace vám po přihlášení zašleme na váš e-mail.",
+    "food": "Drobné občerstvení a pití během celého kurzu je zahrnuto v ceně. Oběd si každý účastník zajistí sám. V okolí bootcampu se nachází několik restaurací a bister, kde si mohou vybrat i vegetariáni a vegani.",
+    "price": 9500,
+    "duration": "8 hodin",
+    "capacity": 18,
+    "registered": 12,
+    "attendence": "on-site",
+    "cancelFee": "50%",
+    "date": "2023-01-15",
+    "startTime": "9:30",
+    "endTime": "17:30",
+    "venue": {
+      "name": "IT-Bootcamp",
+      "street": "Polovidičové náměstí 837/11",
+      "city": "Praha",
+      "photo": "https://apps.kodim.cz/daweb/trening-api/assets/bootcamp.jpg",
+      "instructions": "Vstup do budovy je z ulice Polovodičové náměstí. V přízemí budovy se nachází recepce, kde se přihlaste. Výtahem se pak dostanete do 3. patra, kde se nachází naše učebna."
+    },
+    "instructor": {
+      "name": "Marie Pokorná-Těšitelová",
+      "email": "marie.pokorna@it-bootcamp.cz",
+      "profession": "Senior full-stack vývojářka",
+      "bio": "Marie je zkušená lektorka, která se věnuje výuce programování již od svých 21 let. Její oblíbené technologie jsou React a Node.js. V současné době pracuje jako vývojářka v jedné z největších českých softwarových firem.",
+      "avatar": "https://apps.kodim.cz/daweb/trening-api/assets/marie.png"
+    }
+  }
+]
