@@ -1,0 +1,104 @@
+/* style.css */
+
+.summary {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.summary h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.summary__head {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.summary__photo {
+  width: 160px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.summary__head-property,
+.summary__head-room {
+  flex: 1;
+}
+
+.summary__name {
+  font-size: 1.25rem;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.summary__adress,
+.summary__city,
+.summary__rating,
+.summary__room-type,
+.summary__room-price {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 0.2rem;
+}
+
+.summary__room-price {
+  font-weight: 500;
+  color: #000;
+  margin-top: 0.3rem;
+}
+
+.summary__detail,
+.summary__services,
+.summary__cancal {
+  margin-bottom: 2rem;
+}
+
+.summary__detail h3,
+.summary__services h3,
+.summary__cancal h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  color: #444;
+}
+
+.summary__detail div,
+.summary__services div,
+.summary__cancal p {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.summary__room-total {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 0.8rem;
+  color: #000;
+}
+
+.summary__service {
+  padding-left: 1rem;
+  position: relative;
+}
+
+.summary__service::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #aaa;
+}
+
+.summary__cancel-text p {
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
+}
