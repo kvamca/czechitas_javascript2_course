@@ -1,0 +1,18 @@
+[
+    {
+        "id": 0,
+        "name": "Seznam",
+        "url": "https://www.seznam.cz",
+        "desc": "Český vyhledavač",
+        "type": "web"
+
+    },
+    {
+        "id": 1,
+        "name": "Google",
+        "url": "https://www.google.com",
+        "desc": "Nečeský vyhledavač",
+        "type": "web"
+
+    }
+]

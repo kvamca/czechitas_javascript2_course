@@ -41,6 +41,7 @@ const itemInput = form.querySelector('#input-name');
 const amountInput = form.querySelector('#input-amount');
 const unitInput = form.querySelector('#input-unit');
 const btnsDelete = document.querySelectorAll('.btn-delete');
+const btnsTick = document.querySelectorAll(".btn-tick");
 
 const onSubmit = async (event) => {
   event.preventDefault();
@@ -65,7 +66,7 @@ const response = await fetch('https://nakupy.czechitas.dev/api/mon', {
   window.location.reload();
 }
 
-const handleDelete = async (event) => {
+    const handleDelete = async (event) => {
 
       const id = event.target.dataset.id;
       const response = await fetch(`https://nakupy.czechitas.dev/api/mon/${id}`, {
@@ -78,10 +79,30 @@ const handleDelete = async (event) => {
         alert('Položku se nepodařilo smazat.');
       }
     };
+
+    const handleDone = async (event) =>{
+      const id = event.target.dataset.id;
+      const response = await fetch(`https://nakupy.czechitas.dev/api/mon/${id}`, {
+        method: 'PATCH',
+        headers: {'Content-Type': 'application/json',},
+        body: JSON.stringify({done: true})
+
+      });
+
+      if (response.ok) {
+        window.location.reload();
+      } else {
+        alert('Položku se nepodařilo zaškrtnout.');
+      }
+
+    }
   
-
-
 form.addEventListener('submit', onSubmit);
+
 btnsDelete.forEach((button) => {
   button.addEventListener('click', handleDelete);
+});
+
+btnsTick.forEach((button) => {
+  button.addEventListener('click', handleDone);
 });

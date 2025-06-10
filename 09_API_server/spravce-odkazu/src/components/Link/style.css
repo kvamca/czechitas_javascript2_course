@@ -1,0 +1,44 @@
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.link__name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+.link__desc {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+}
+.link__url {
+    font-size: 0.9rem;
+    color: #007bff;
+    text-decoration: none;
+}
+.link__url:hover {
+    text-decoration: underline;
+}
+.link__url:visited {
+    color: #0056b3;
+}
+.link__type {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 0.5rem;
+}
