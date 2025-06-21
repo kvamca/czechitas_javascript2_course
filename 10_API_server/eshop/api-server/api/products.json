@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "name": "Macbook",
+    "price": 1200,
+    "currency": "USD",
+    "color": "Silver"
+  },
+  {
+    "id": 1,
+    "name": "iPhone",
+    "price": 999,
+    "currency": "USD",
+    "color": "Black"
+  },
+  {
+    "id": 2,
+    "name": "iPad",
+    "price": 799,
+    "currency": "USD",
+    "color": "Gold"
+  },
+  {
+    "id": 3,
+    "name": "Apple Watch",
+    "price": 399,
+    "currency": "USD",
+    "color": "Space Gray"
+  }
+]

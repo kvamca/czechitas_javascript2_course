@@ -1,0 +1,146 @@
+[
+  {
+    "id": 0,
+    "name": "Homer Simpson",
+    "gender": "Male",
+    "age": 39,
+    "occupation": "Safety Inspector at the Springfield Nuclear Power Plant",
+    "catchphrase": "D'oh!"
+  },
+  {
+    "id": 1,
+    "name": "Marge Simpson",
+    "gender": "Female",
+    "age": 38,
+    "occupation": "Homemaker",
+    "catchphrase": "Hmm..."
+  },
+  {
+    "id": 2,
+    "name": "Bart Simpson",
+    "gender": "Male",
+    "age": 10,
+    "occupation": "Student",
+    "catchphrase": "Eat my shorts!"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Simpson",
+    "gender": "Female",
+    "age": 8,
+    "occupation": "Student",
+    "catchphrase": "I'm going to become President someday!"
+  },
+  {
+    "id": 4,
+    "name": "Maggie Simpson",
+    "gender": "Female",
+    "age": 1,
+    "occupation": "Baby",
+    "catchphrase": "[sucking sound]"
+  },
+  {
+    "id": 5,
+    "name": "Ned Flanders",
+    "gender": "Male",
+    "age": 60,
+    "occupation": "Owner of the Leftorium",
+    "catchphrase": "Hi-diddly-ho, neighborino!"
+  },
+  {
+    "id": 6,
+    "name": "Montgomery Burns",
+    "gender": "Male",
+    "age": 104,
+    "occupation": "Owner of the Springfield Nuclear Power Plant",
+    "catchphrase": "Excellent..."
+  },
+  {
+    "id": 7,
+    "name": "Chief Wiggum",
+    "gender": "Male",
+    "age": 45,
+    "occupation": "Chief of Police",
+    "catchphrase": "Uh...yeah, that's right."
+  },
+  {
+    "id": 8,
+    "name": "Krusty the Clown",
+    "gender": "Male",
+    "age": 46,
+    "occupation": "TV Clown",
+    "catchphrase": "Hey hey!"
+  },
+  {
+    "id": 9,
+    "name": "Apu Nahasapeemapetilon",
+    "gender": "Male",
+    "age": 40,
+    "occupation": "Owner of the Kwik-E-Mart",
+    "catchphrase": "Thank you, come again!"
+  },
+  {
+    "id": 10,
+    "name": "Barney Gumble",
+    "gender": "Male",
+    "age": 40,
+    "occupation": "Unemployed",
+    "catchphrase": "Burp..."
+  },
+  {
+    "id": 11,
+    "name": "Nelson Muntz",
+    "gender": "Male",
+    "age": 10,
+    "occupation": "Student",
+    "catchphrase": "Haw-haw!"
+  },
+  {
+    "id": 12,
+    "name": "Milhouse Van Houten",
+    "gender": "Male",
+    "age": 10,
+    "occupation": "Student",
+    "catchphrase": "My mom says I'm cool."
+  },
+  {
+    "id": 13,
+    "name": "Seymour Skinner",
+    "gender": "Male",
+    "age": 45,
+    "occupation": "Former Principal of Springfield Elementary School",
+    "catchphrase": "Mother!"
+  },
+  {
+    "id": 14,
+    "name": "Edna Krabappel",
+    "gender": "Female",
+    "age": 40,
+    "occupation": "Teacher at Springfield Elementary School",
+    "catchphrase": "Ha!"
+  },
+  {
+    "id": 15,
+    "name": "Maude Flanders",
+    "gender": "Female",
+    "age": 60,
+    "occupation": "Homemaker",
+    "catchphrase": "Please, Neddy!"
+  },
+  {
+    "id": 16,
+    "name": "Groundskeeper Willie",
+    "gender": "Male",
+    "age": 45,
+    "occupation": "Groundskeeper at Springfield Elementary School",
+    "catchphrase": "Ach, get off me lawn!"
+  },
+  {
+    "id": 17,
+    "name": "Waylon Smithers",
+    "gender": "Male",
+    "age": 45,
+    "occupation": "Executive Assistant to Mr. Burns",
+    "catchphrase": "Yes, sir..."
+  }
+]
