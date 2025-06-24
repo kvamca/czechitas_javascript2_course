@@ -11,13 +11,31 @@ import {Footer} from "../components/Footer/footer.jsx"
 
 document.querySelector('#root').innerHTML = render(
   <div className="page">
-    <Header />
+    <Header id="domu"/>
     <main>
       <Banner />
-      <Menu />
-      <Gallery />
-      <Contact />
+      <Menu id="menu"/>
+      <Gallery id="galerie"/>
+      <Contact id="kontakt"/>
     </main>
     <Footer />
   </div>
 );
+
+const hamburgerMenu = document.querySelector(".nav-btn");
+const mobileMenu = document.querySelector(".rollout-nav");
+const itemMobileMenu = mobileMenu.querySelectorAll("a");
+
+const toggleMobileMenu = () => {
+mobileMenu.classList.toggle("nav-closed");
+}
+
+const hideMobileMenu = () => {
+  if (!mobileMenu.classList.contains("nav-closed")) {
+    mobileMenu.classList.add("nav-closed");
+  }
+}
+hamburgerMenu.addEventListener("click", toggleMobileMenu)
+itemMobileMenu.forEach((item) => {
+  item.addEventListener("click", hideMobileMenu);
+});
