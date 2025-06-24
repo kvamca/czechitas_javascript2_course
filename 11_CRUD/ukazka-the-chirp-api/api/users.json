@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "name": "Petr Pálený",
+    "handle": "palenka",
+    "avatar": "/assets/palenka-avatar.jpg",
+    "bio": "Jsem web developer se zájmem o moderní technologie a design. Věnuji se především vývoji webových aplikací a designu uživatelských rozhraní. Mým koníčkem je výroba destilátů a domácího piva."
+  },
+  {
+    "id": 1,
+    "name": "Eva Slezáková",
+    "handle": "slezeva",
+    "avatar": "/assets/slezeva-avatar.jpg",
+    "bio": "Jsem disignérka a ilustrátorka na volné noze. Věnuji se tvorbě log a vizuálního stylu pro firmy a produkty. Mým koníčkem je cestování a fotografování."
+  },
+  {
+    "id": 2,
+    "name": "Michal Černý",
+    "handle": "cernel",
+    "avatar": "/assets/cernel-avatar.jpg",
+    "bio": "Jsem průvodce a lektor v oblasti horolezectví a outdoorových aktivit. Věnuji se výuce lezení a pořádám výpravy do hor. Mým koníčkem je cestování a poznávání nových kultur."
+  },
+  {
+    "id": 3,
+    "name": "Marek Kratochvíl",
+    "handle": "kratom",
+    "avatar": "/assets/kratom-avatar.jpg",
+    "bio": "Jsem fotograf a režisér. Věnuji se tvorbě fotografií a videí pro reklamní kampaně a dokumentární filmy. Mým koníčkem jsou debatní kluby a politika."
+  },
+  {
+    "id": 4,
+    "name": "Markéta Nová",
+    "handle": "joginka",
+    "avatar": "/assets/joginka-avatar.jpg",
+    "bio": "Jsem začínající lektorka jógy, tanečnice a zpěvačka. Věnuji se výuce jógy a tance a pořádám workshopy a semináře. Mým koníčkem je domácí vaření a pečení."
+  }
+]
