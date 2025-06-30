@@ -1,4 +1,5 @@
 import "./drink.css"
+import { Layer } from "../Layer/layer.jsx"
 
 export const Drink = ({id, name, ordered, image, layers}) => {
   const color = layers[0].color;
@@ -11,10 +12,7 @@ export const Drink = ({id, name, ordered, image, layers}) => {
                 </div>
                 <div className="drink__info">
                   <h3>{name}</h3>
-                  <div className="layer">
-                    <div className="layer__color" style={{ backgroundColor: color }}></div>
-                    <div className="layer__label">{label}</div>
-                  </div>
+                  <Layer color={color} label={label} />
                 </div>
               </div>
               <form className="drink__controls">
