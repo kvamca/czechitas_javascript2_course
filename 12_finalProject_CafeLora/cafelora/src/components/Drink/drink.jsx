@@ -15,10 +15,10 @@ export const Drink = ({id, name, ordered, image, layers}) => {
                   <Layer color={color} label={label} />
                 </div>
               </div>
-              <form className="drink__controls">
+              <form className="drink__controls" data-id={id} data-ordered={ordered}>
                 <input type="hidden" className="order-id" value={id} />
-                <button className="order-btn">
-                  Objednat
+                <button className={"order-btn" + (ordered ? " order-btn--ordered" : "")}>
+                  {ordered ? "Zrušit" : "Objednat"}
                 </button>
               </form>
             </div>

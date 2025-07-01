@@ -47,3 +47,26 @@ hamburgerMenu.addEventListener("click", toggleMobileMenu)
 itemMobileMenu.forEach((item) => {
   item.addEventListener("click", hideMobileMenu);
 });
+
+const allForms = document.querySelectorAll('form');
+
+allForms.forEach((form) => {
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const id = form.dataset.id;
+    const isOrdered = form.dataset.ordered === "true";
+    const response = await fetch(`http://localhost:4000/api/drinks/${id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify([
+        { op: "replace", path: "/ordered", value: (!isOrdered) }
+      ]),
+    });
+    const data = await response.json();
+    console.log(data);
+    window.location.reload()
+  });
+});
+

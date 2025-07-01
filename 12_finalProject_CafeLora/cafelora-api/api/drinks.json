@@ -26,7 +26,7 @@
   {
     "id": 2,
     "name": "Lungo",
-    "ordered": false,
+    "ordered": "2",
     "layers": [
       {
         "color": "#b0dee1",
@@ -42,7 +42,7 @@
   {
     "id": 3,
     "name": "Ristretto",
-    "ordered": false,
+    "ordered": true,
     "layers": [
       {
         "color": "#613916",
@@ -54,7 +54,7 @@
   {
     "id": 4,
     "name": "Macchiato",
-    "ordered": false,
+    "ordered": true,
     "layers": [
       {
         "color": "#feeeca",
@@ -70,7 +70,7 @@
   {
     "id": 5,
     "name": "Corretto",
-    "ordered": false,
+    "ordered": true,
     "layers": [
       {
         "color": "#fa872f",
@@ -86,7 +86,7 @@
   {
     "id": 6,
     "name": "Con panna",
-    "ordered": false,
+    "ordered": true,
     "layers": [
       {
         "color": "#feeeca",
@@ -102,7 +102,7 @@
   {
     "id": 7,
     "name": "Romano",
-    "ordered": false,
+    "ordered": true,
     "layers": [
       {
         "color": "#fbdf5b",
@@ -118,7 +118,7 @@
   {
     "id": 8,
     "name": "Cappuccino",
-    "ordered": false,
+    "ordered": true,
     "layers": [
       {
         "color": "#feeeca",
