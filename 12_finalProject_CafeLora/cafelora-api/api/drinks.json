@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "Espresso",
-    "ordered": false,
+    "ordered": true,
     "layers": [
       {
         "color": "#613916",
@@ -14,7 +14,7 @@
   {
     "id": 1,
     "name": "Doppio",
-    "ordered": false,
+    "ordered": true,
     "layers": [
       {
         "color": "#613916",
@@ -54,7 +54,7 @@
   {
     "id": 4,
     "name": "Macchiato",
-    "ordered": true,
+    "ordered": false,
     "layers": [
       {
         "color": "#feeeca",

@@ -19,7 +19,7 @@ const drinks = await fetchDrinks();
 
 document.querySelector('#root').innerHTML = render(
   <div className="page">
-    <Header id="domu"/>
+    <Header id="domu" showMenu={true}/>
     <main>
       <Banner />
       <Menu id="menu" drinks={drinks}/>
